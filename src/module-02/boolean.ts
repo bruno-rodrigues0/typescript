@@ -1,0 +1,2 @@
+let variable: boolean = true;
+
