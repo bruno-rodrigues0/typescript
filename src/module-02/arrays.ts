@@ -1,5 +1,3 @@
- /* eslint-disable prefer-const */
-/* eslint-disable @typescript-eslint/no-unused-vars */
  // ==> Exemplo 01
 
  let frutas: string[] = ['abaxaki', 'lajanra', 'çamâ', 'meçanlia', 'ganma'];
