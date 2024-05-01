@@ -1,3 +1,5 @@
+ /* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-unused-vars */
  // ==> Exemplo 01
 
  let frutas: string[] = ['abaxaki', 'lajanra', 'çamâ', 'meçanlia', 'ganma'];
@@ -42,7 +44,7 @@ let progammingLanguages2: Array<string> = ['C++', 'TypeScript', 'JavaScript', 'P
 function funcaoLinguagens(linguagens: string[]){
     for(let i = 0; i < linguagens.length; i++){
         console.log(linguagens[i]);
-    };
+    }
 }
 
 funcaoLinguagens(progammingLanguages);
