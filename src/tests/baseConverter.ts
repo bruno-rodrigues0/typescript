@@ -6,7 +6,7 @@ export default function baseConverter(value: number, base: number = 2){
     }
 
     const characters : string = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    const stack = new Stack();
+    const stack = new Stack<number>();
     let binaryString : string = '';
     let number  = value;
     let rem : number;
@@ -24,4 +24,4 @@ export default function baseConverter(value: number, base: number = 2){
     return binaryString;
 }
 
-console.log(baseConverter(10, 2));
+console.log(baseConverter(123, 16));
