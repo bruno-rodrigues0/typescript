@@ -6,7 +6,7 @@ interface IPessoa {
     nomeCompleto(): string;
 }
 
-abstract class Pessoa implements IPessoa{
+abstract class Pessoa implements IPessoa {
     protected nome: string;
     protected sobrenome: string;
     protected idade: number;
@@ -25,10 +25,10 @@ abstract class Pessoa implements IPessoa{
 // ==> Exemplo 02
 
 interface IEstudante {
-    getEstudante(): string
+    getEstudante(): string;
 }
 
-class Estudante extends Pessoa implements IEstudante{
+class Estudante extends Pessoa implements IEstudante {
     private codEstudante: number;
 
     constructor(
@@ -46,11 +46,21 @@ class Estudante extends Pessoa implements IEstudante{
     }
 }
 
-type estudanteCreator = (nome: string, sobrenome: string, idade: number, codigo: number) => Estudante
+type estudanteCreator = (
+    nome: string,
+    sobrenome: string,
+    idade: number,
+    codigo: number
+) => Estudante;
 
-const createStudent: estudanteCreator = (nome: string, sobrenome: string, idade: number, codigo: number) => {
+const createStudent: estudanteCreator = (
+    nome: string,
+    sobrenome: string,
+    idade: number,
+    codigo: number
+) => {
     const estudante1 = new Estudante(nome, sobrenome, idade, codigo);
-    return estudante1 
-}
+    return estudante1;
+};
 
 createStudent("Bruno", "Rodrigues", 17, 5238);
