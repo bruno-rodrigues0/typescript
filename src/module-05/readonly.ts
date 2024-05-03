@@ -32,7 +32,7 @@ console.log(func);
 
 // ==> Exemplo 03
 
-interface IFuncionario {
+type IFuncionario = {
     codigoFunc: number;
     nomeFunc: string;
 }
