@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "strictNullChecks": false,
-    "lib": ["dom"],
+    "lib": ["dom", "esnext"],
     "target": "ES2022",
     "module": "Node16",
     "outDir": "./build",
