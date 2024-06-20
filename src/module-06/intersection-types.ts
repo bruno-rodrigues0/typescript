@@ -17,7 +17,7 @@ interface DadosPessoaFisica {
     cpf: string;
 }
 
-type DadosCliente = DadosBancarios & Cliente & DadosPessoaFisica;
+type DadosCliente = DadosBancarios & Cliente & DadosPessoaFisica; 
 
 const dadosClintes: DadosCliente = {
     conta: 1241,
@@ -30,18 +30,7 @@ const dadosClintes: DadosCliente = {
 
 console.log(dadosClintes)
 
-
-
-
-
 // ==> Exemplo 02
-
-
-
-
-
-
-
 
 
 
