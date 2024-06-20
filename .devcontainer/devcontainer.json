@@ -1,0 +1,11 @@
+{
+    // Name this configuration
+    "name": "Type Studies",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot"
+            ]
+        }
+    }
+}
