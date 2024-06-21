@@ -37,6 +37,5 @@ const v8 = new Motores.Motor(400)
 const supra = new Veiculo.Carro("Supra", v8)
 const civic = new Veiculo.Carro("Civic", new Motores.Motor(200))
 
-
 console.log(civic)
 console.log(supra)
